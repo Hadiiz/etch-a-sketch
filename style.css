@@ -1,0 +1,18 @@
+body{
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+}
+
+container{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    width: 500px;
+    height: 500px;
+}
+
+.cell{
+    background-color: orange;
+    border:1px solid blue;
+}
