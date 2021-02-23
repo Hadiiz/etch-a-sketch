@@ -24,6 +24,6 @@ function change_color(e){
     let color = Math.floor(Math.random()*16777215).toString(16);
     e.target.style.backgroundColor = `#${color}`;
 }
-// generate_cells(2);
+generate_cells(2);
 console.log(container);
 console.log(clear);
